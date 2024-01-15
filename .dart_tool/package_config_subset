@@ -18,6 +18,10 @@ collection
 2.18
 file:///home/fantomas/.pub-cache/hosted/pub.dev/collection-1.18.0/
 file:///home/fantomas/.pub-cache/hosted/pub.dev/collection-1.18.0/lib/
+crypto
+2.19
+file:///home/fantomas/.pub-cache/hosted/pub.dev/crypto-3.0.3/
+file:///home/fantomas/.pub-cache/hosted/pub.dev/crypto-3.0.3/lib/
 cupertino_icons
 2.19
 file:///home/fantomas/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.6/
@@ -26,6 +30,10 @@ fake_async
 2.12
 file:///home/fantomas/.pub-cache/hosted/pub.dev/fake_async-1.3.1/
 file:///home/fantomas/.pub-cache/hosted/pub.dev/fake_async-1.3.1/lib/
+fixnum
+2.19
+file:///home/fantomas/.pub-cache/hosted/pub.dev/fixnum-1.1.0/
+file:///home/fantomas/.pub-cache/hosted/pub.dev/fixnum-1.1.0/lib/
 flutter_lints
 2.19
 file:///home/fantomas/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3/
@@ -54,6 +62,10 @@ source_span
 2.18
 file:///home/fantomas/.pub-cache/hosted/pub.dev/source_span-1.10.0/
 file:///home/fantomas/.pub-cache/hosted/pub.dev/source_span-1.10.0/lib/
+sprintf
+2.12
+file:///home/fantomas/.pub-cache/hosted/pub.dev/sprintf-7.0.0/
+file:///home/fantomas/.pub-cache/hosted/pub.dev/sprintf-7.0.0/lib/
 stack_trace
 2.18
 file:///home/fantomas/.pub-cache/hosted/pub.dev/stack_trace-1.11.1/
@@ -74,6 +86,14 @@ test_api
 3.0
 file:///home/fantomas/.pub-cache/hosted/pub.dev/test_api-0.6.1/
 file:///home/fantomas/.pub-cache/hosted/pub.dev/test_api-0.6.1/lib/
+typed_data
+2.17
+file:///home/fantomas/.pub-cache/hosted/pub.dev/typed_data-1.3.2/
+file:///home/fantomas/.pub-cache/hosted/pub.dev/typed_data-1.3.2/lib/
+uuid
+3.0
+file:///home/fantomas/.pub-cache/hosted/pub.dev/uuid-4.3.3/
+file:///home/fantomas/.pub-cache/hosted/pub.dev/uuid-4.3.3/lib/
 vector_math
 2.14
 file:///home/fantomas/.pub-cache/hosted/pub.dev/vector_math-2.1.4/

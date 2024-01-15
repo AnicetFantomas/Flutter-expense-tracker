@@ -1,0 +1,4 @@
+#Mon Jan 15 22:24:46 CAT 2024
+base.0=/home/fantomas/Desktop/Personnal Projects/Flutter Projects/Flutter-expense-tracker/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

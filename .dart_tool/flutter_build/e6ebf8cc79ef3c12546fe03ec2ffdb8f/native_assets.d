@@ -1,0 +1,1 @@
+ /home/fantomas/Desktop/Personnal\ Projects/Flutter\ Projects/Flutter-expense-tracker/.dart_tool/flutter_build/e6ebf8cc79ef3c12546fe03ec2ffdb8f/native_assets.yaml: 
