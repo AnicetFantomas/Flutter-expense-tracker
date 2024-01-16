@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:uuid/uuid.dart';
 import 'package:intl/intl.dart';
 
+final formater = DateFormat.yMd();
+
 const uuid = Uuid();
 
-final formater = DateFormat.yMd();
 
 const categoryIcons = {
   Category.food: Icons.lunch_dining,
