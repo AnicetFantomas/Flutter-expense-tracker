@@ -74,6 +74,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///home/fantomas/.pub-cache/hosted/pub.dev/intl-0.19.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "lints",
       "rootUri": "file:///home/fantomas/.pub-cache/hosted/pub.dev/lints-2.1.1",
       "packageUri": "lib/",
@@ -182,7 +188,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-01-15T20:31:46.828151Z",
+  "generated": "2024-01-16T11:02:07.348735Z",
   "generator": "pub",
   "generatorVersion": "3.2.3"
 }
