@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:expense_tracker/models/expense.dart';
 
 final formatter = DateFormat.yMd();
 
@@ -17,9 +18,9 @@ class _NewExpenseState extends State<NewExpense> {
   final _amountController = TextEditingController();
   DateTime? _selectedDate;
 
-  void _presentDatePicker () async {
+  void _presentDatePicker() async {
     final now = DateTime.now();
-    final firstDate = DateTime(now.year -1, now.month, now.day);
+    final firstDate = DateTime(now.year - 1, now.month, now.day);
     final pickedDate = await showDatePicker(
       context: context,
       initialDate: now,
@@ -61,16 +62,19 @@ class _NewExpenseState extends State<NewExpense> {
                       decoration: const InputDecoration(
                         prefixText: '\$ ',
                         label: Text('Amount'),
-                      )
-                      ),
+                      )),
                 ),
                 const SizedBox(width: 16),
-                 Expanded(
+                Expanded(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                       Text(_selectedDate == null ? 'no date selected' : formatter.format(_selectedDate!),),
+                      Text(
+                        _selectedDate == null
+                            ? 'no date selected'
+                            : formatter.format(_selectedDate!),
+                      ),
                       IconButton(
                         onPressed: _presentDatePicker,
                         icon: const Icon(Icons.calendar_month),
@@ -81,6 +85,19 @@ class _NewExpenseState extends State<NewExpense> {
               ],
             ),
             Row(children: [
+              DropdownButton(
+                items: CategoryEnum.values
+                    .map(
+                      (category) => DropdownMenuItem(
+                        value: category,
+                        child: Text(
+                          category.name.toString(),
+                        ),
+                      ),
+                    )
+                    .toList(),
+                onChanged: (value) {},
+              ),
               TextButton(
                 onPressed: () {
                   Navigator.pop(context);

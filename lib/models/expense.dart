@@ -9,13 +9,13 @@ const uuid = Uuid();
 
 
 const categoryIcons = {
-  Category.food: Icons.lunch_dining,
-  Category.travel: Icons.flight,
-  Category.leisure: Icons.movie,
-  Category.work: Icons.work,
+  CategoryEnum.food: Icons.lunch_dining,
+  CategoryEnum.travel: Icons.flight,
+  CategoryEnum.leisure: Icons.movie,
+  CategoryEnum.work: Icons.work,
 };
 
-enum Category {
+enum CategoryEnum {
   food,
   travel,
   leisure,
@@ -34,7 +34,7 @@ class Expense {
   final String title;
   final double amount;
   final DateTime date;  
-  final Category category;
+  final CategoryEnum category;
 
   String get formattedDate {
     return formater.format(date);
