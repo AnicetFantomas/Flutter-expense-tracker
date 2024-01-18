@@ -23,6 +23,7 @@ void main () {
             backgroundColor: kDarkColorScheme.primaryContainer,
             foregroundColor: kDarkColorScheme.onPrimaryContainer,
           ),
+        ),
       ),
       theme: ThemeData().copyWith(
         colorScheme: kColorScheme,
